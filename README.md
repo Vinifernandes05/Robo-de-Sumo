@@ -60,5 +60,4 @@ robo-sumo/
 │
 ├── RoboSumo.ino
 ├── README.md
-└── imagens/
 ```
