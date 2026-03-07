@@ -1,63 +1,103 @@
-# 🤖 Robô de Sumô Autônomo
+# 🤖 Robô de Sumô
 
-Projeto de desenvolvimento de um **robô de sumô autônomo**, programado em **C++** utilizando a **Arduino IDE**.
-O robô foi projetado para detectar o oponente dentro da arena e empurrá-lo para fora, ao mesmo tempo em que evita ultrapassar os limites da arena utilizando sensores de linha.
-
----
-
-# 🎯 Objetivo do Projeto
-
-O objetivo deste projeto foi aplicar conhecimentos de:
-
-* Eletrônica
-* Programação embarcada
-* Sistemas embarcados
-* Robótica
-* Integração entre hardware e software
-
-O robô foi desenvolvido para operar de forma **totalmente autônoma**, tomando decisões com base nas leituras dos sensores.
+Projeto de um **Robô de Sumô autônomo**, desenvolvido para competição de robótica na Universidade SENAI Cimatec, englobando alunos da Instituição SESI e do SENAI Cimatec.
+O robô foi projetado para detectar o oponente dentro da arena e empurrá-lo para fora do ringue, utilizando sensores e programado em **C++**, na plataforma **Arduino IDE**.
 
 ---
 
-# ⚙️ Componentes Utilizados
+# 🏆 Premiações
 
-* 1 Arduino Uno
-* 2 Pontes H L298N
-* 4 Motores DC
-* 4 Rodas
-* 2 Sensores infravermelhos (detecção da linha da arena)
-* 1 Sensor ultrassônico
-* 1 Mini protoboard
-* 1 Bateria de 12V
-* Fios jumpers diversos
+O projeto conquistou importantes resultados na competição:
 
----
+* 🥇 **Melhor Estrutura**
+* 🥉 **Terceiro Lugar na Competição**
 
-# 🧠 Funcionamento do Robô
+Os registros das premiações podem ser encontradas na pasta:
 
-O robô opera seguindo a seguinte lógica:
-
-1. O **sensor ultrassônico** detecta a presença de um oponente.
-2. Quando o oponente é detectado, o robô **avança para atacar**.
-3. Os **sensores infravermelhos** monitoram constantemente a borda da arena.
-4. Caso o robô detecte a linha da arena, ele **recua e muda de direção** para evitar sair da área de combate.
-5. Se nenhum oponente for detectado, o robô **gira procurando adversários**.
-
----
-
-# 💻 Tecnologias Utilizadas
-
-* C++
-* Arduino IDE
-* Programação de sistemas embarcados
+```
+imagens/imagensPremios
+```
 
 ---
 
 # 📁 Estrutura do Projeto
 
 ```
-robo-sumo/
+ROBO-SUMO
 │
-├── RoboSumo.ino
-├── README.md
+├── Codigo
+│   └── RoboSumo.ino
+│
+├── imagens
+│   ├── Esquematico Elétrico.pdf
+│   ├── Modelagem Carcaça 3D Fusion.pdf
+│   ├── Organização dos componentes.pdf
+│   ├── Robô completo.pdf
+│   │
+│   └── imagensPremios
+│       ├── Equipe ATOM com as premiações.pdf
+│       └── Melhor Estrutura e Terceiro Lugar.pdf
+│
+├── videos
+│   ├── Vídeo Duelo 1.mp4
+│   ├── Vídeo Duelo 2.mp4
+│   └── Vídeo Duelo 3.mp4
+│
+└── README.md
 ```
+
+---
+
+# 📂 Descrição das Pastas
+
+### 📁 Codigo
+
+Contém o **código fonte do robô**, desenvolvido em **Arduino (C++)**, responsável pelo controle dos sensores e motores.
+
+Arquivo principal:
+
+```
+RoboSumo.ino
+```
+
+---
+
+### 📁 imagens
+
+Contém documentos e materiais relacionados ao desenvolvimento do robô:
+
+* 📄 Esquemático Elétrico
+* 🧱 Modelagem da carcaça em 3D (Fusion 360)
+* 🧩 Organização dos componentes
+* 🤖 Robô completo
+
+---
+
+### 📁 imagens/imagensPremio
+
+Contém **fotos das premiações obtidas pelo projeto**:
+
+* 🥇🥉 Melhor Estrutura e Terceiro Lugar
+* 🥇 Equipe ATOM com as premiações
+
+---
+
+### 📁 videos
+
+Contém **vídeos do robô em funcionamento**, incluindo os combates com robôs adversários.
+
+* 🎥 Vídeo Duelo 1
+* 🎥 Vídeo Duelo 2
+* 🎥 Vídeo Duelo 3
+
+---
+
+# ⚙️ Tecnologias Utilizadas
+
+* **Arduino**
+* **C++**
+* **Fusion 360** (modelagem 3D)
+* Eletrônica embarcada
+* Sensores de detecção
+
+---
