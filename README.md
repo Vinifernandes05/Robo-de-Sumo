@@ -6,7 +6,7 @@ Este projeto consiste no desenvolvimento de um **Robô de Sumô autônomo**, cri
 
 O robô foi projetado para detectar adversários dentro da arena e empurrá-los para fora do ringue utilizando sensores, motores e lógica de controle embarcada.
 
-O sistema foi programado em **C++** utilizando a plataforma **Arduino IDE**, integrando conceitos de robótica, eletrônica embarcada, sensores e modelagem estrutural.
+O robô foi programado em **C++** utilizando a plataforma **Arduino IDE**, integrando conceitos de robótica, eletrônica embarcada, sensores e modelagem estrutural.
 
 Além do desempenho técnico, o projeto também teve foco na construção mecânica e organização dos componentes eletrônicos.
 
